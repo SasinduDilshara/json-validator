@@ -9,7 +9,7 @@ A lightweight Ballerina library for validating JSON values against **JSON Schema
 ✔ **Error Reporting** – Detailed validation failures with paths.  
 
 ```ballerina  
-import xlibb/jsonschema_validator as validator;  
+import sasindu/jsonschema.validator as validator;  
 
 json payload = { "name": "Ballerina", "version": "2201.7.0" };  
 json schema = {  
